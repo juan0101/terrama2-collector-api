@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "terrama2_api"
+version = "0.1.0"
+description = "Api for Terrama2 using Python 3.7"
+authors = ["Juan Vinicius <juan_vinicius_19@yahoo.com.br>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Flask = "^1.1.2"
+Flask-RESTful = "^0.3.8"
+Flask-SQLAlchemy = "^2.4.4"
+psycopg2-binary = "^2.8.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pylint = "^2.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
