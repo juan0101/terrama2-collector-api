@@ -1,2 +1,1 @@
-# terrama2-api
-Api python para os serviços do terrama2
+Api para o serviço de collector do terrama2
