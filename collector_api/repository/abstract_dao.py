@@ -6,8 +6,4 @@ def get_all(table_name):
         first = r[0]
         second = r[1]
         tres = r[2]
-        print(r)
-        print(first)
-        print(second)
-        print(tres)
     return response
